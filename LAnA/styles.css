@@ -1,0 +1,134 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #2F4F4F;
+    color: #fff;
+    padding: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    position: relative; /* Add position relative for pseudo-element */
+}
+
+
+/* Main Content Styles */
+#main-content {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+#contentcontainer {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#content {
+    flex: 1;
+    margin-right: 20px;
+    border-bottom: solid #778899;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+#undercontent 
+{
+    display: inline-block;
+}
+
+#content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#expbtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2F4F4F;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+footer a
+{
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+
+}
+header nav #curent
+{
+    color: blue;
+
+}
+#main-content img 
+{
+    width: 55%;
+    height: 55%;
+    margin: 0 5px;
+}
